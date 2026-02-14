@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIH | Hope International Hospital Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">HIH</div>
+            <div class="logo-text">
+                <h1>HOPE INTERNATIONAL <span>HOSPITAL</span></h1>
+                <p>Fellowship & Residency Programs</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="layout">
+        <nav class="sidebar">
+            <button class="nav-btn active" onclick="loadCategory('surgical')">
+                <i class="fa-solid fa-scalpel"></i> Surgical Residencies
+            </button>
+            <button class="nav-btn" onclick="loadCategory('medical')">
+                <i class="fa-solid fa-user-doctor"></i> Medical Residencies
+            </button>
+            <button class="nav-btn" onclick="loadCategory('interventional')">
+                <i class="fa-solid fa-heart-pulse"></i> Interventional Fellowships
+            </button>
+            <button class="nav-btn" onclick="loadCategory('radiology')">
+                <i class="fa-solid fa-x-ray"></i> Radiology Specialties
+            </button>
+            <button class="nav-btn" onclick="loadCategory('nursing')">
+                <i class="fa-solid fa-user-nurse"></i> Nursing Specialties
+            </button>
+        </nav>
+
+        <main class="content-area">
+            <section id="intro-card" class="intro-box">
+                <h2>Welcome to Hope International Hospital</h2>
+                <p>Hope International Hospital (HIH) is a premier multispecialty hospital serving thousands of patients daily. Our institution is committed to providing world-class healthcare while training the next generation of medical professionals.</p>
+                <p>HIH’s fellowship and residency programs are designed to provide short-term, high-intensity clinical training across multiple specialties. Trainees benefit from hands-on experience, exposure to high patient volumes, and mentorship from leading experts, ensuring a comprehensive learning experience.</p>
+            </section>
+
+            <div id="programs-grid" class="grid-container">
+                </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
